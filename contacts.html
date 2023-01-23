@@ -1,14 +1,36 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Контакты</title>
 </head>
+
 <body>
-<h1>Контакты</h1>
-<a href="index.html">Главная</a><br>
-<a href="catalog/catalog.html">Каталог</a>    
+    <ul class="menu">
+        <li><a href="index.html">Главная</a></li>
+        <li><a href="catalog/catalog.html">Каталог</a>
+            <ul>
+                <li><a href="catalog/phone.html">Смартфон Apple iPhone 14 Pro 1TB Purple</a></li>
+                <li><a href="catalog/phone2.html"></a>Смартфон Samsung Galaxy S22 Ultra SM-S908 256GB Black</li>
+                <li><a href="catalog/phone3.html">Смартфон Xiaomi 12T Pro 256GB Black</a></li>
+            </ul>
+        </li>
+    </ul>
+    <hr>
+    <h1>Регистрация</h1>
+    <form action="#">
+        Логин <input type="text" placeholder="Введите логин"><br>
+        Пароль <input type="password" placeholder="Введите пароль"><br>
+        Пол <br>
+        М <input type="radio" name="pol" checked> <br>
+        Ж <input type="radio" name="pol"> <br>
+        <input type="submit" value="Зарегистрироваться"> <input type="reset">
+    </form>
+    <h1>Наши контакты</h1>
+    <hr> <a href="https://gb.ru" target="_blank">GeekBrains</a> &laquo;Все права защищены&raquo; &copy;
 </body>
+
 </html>
