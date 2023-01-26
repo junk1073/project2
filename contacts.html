@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Контакты</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
@@ -31,13 +32,21 @@
     </form>
     <h1>Наши контакты</h1>
     <p>Адрес: г. Санкт-Петербург, ул. Камчатская, д. 3</p>
+    <p>Телефон: 8(812)-36-36</p>
+    <p>Email: horoshayasvyaz@mail.ru</p>
     <iframe src="https://yandex.ru/map-widget/v1/?um=constructor%3Af9f8c4fee69deae32293e47a3be91e4c7c33427618c9029732ebfdb3cad7951b&amp;source=constructor" width="500" height="400" frameborder="0"></iframe>
     <h1>Форма обратной связи</h1>
     <form action="">
         <p><b>Ваше имя</b> <br>
             <input type="text" size="40"> <br>
             <b>Email</b> <br>
-            <input type="text" size="40"> <br>
+            <input type="email" size="40"> <br>
+            <b>Тема</b> <br>
+            <select name="" id="">
+                <option value="s1">Гарантийное обслуживание</option>
+                <option value="s2">Возврат товара</option>
+                <option value="s3">Сотрудничество</option>
+            </select> <br>
             <b>Комментарий</b> <br>
             <textarea name="" id="" cols="40" rows="3"></textarea> <br>
             <input type="submit" value="Отправить">
