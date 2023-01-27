@@ -56,3 +56,37 @@ font-size: 14px;
 font-style: italic;
 line-height: 16px;
 }
+.feature {
+	display: block;
+	margin: 0;
+	padding: 0;
+}
+.feature li {
+	display: block;
+	letter-spacing: -1ex;
+	margin: 5px 0;
+}
+.feature-left {
+	margin-right: -30%;
+	width: 69%;
+	vertical-align: top;
+	overflow: hidden;
+	display: inline-block;
+	letter-spacing: normal;
+}
+.feature-left:after {
+	content: '';
+	display: inline-block;
+	width: 100%;
+	margin: 0 -99% 0 3px;
+	vertical-align: baseline;
+	border-bottom: 1px dashed #888;
+}
+.feature-right {
+	display: inline-block;
+	letter-spacing: normal;
+	padding-left: 3px;
+	margin-left: 30%;
+	width: 30%;
+	vertical-align: bottom;
+}
