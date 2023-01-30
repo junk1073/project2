@@ -55,13 +55,16 @@ line-height: 16px;
 }
 .feature {
 	display: block;
-	margin: 0;
-	padding: 0;
 }
 .feature li {
-	display: block;
+	display: list-item;
 	letter-spacing: -1ex;
 	margin: 5px 0;
+    color: #484343;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: left;
+    list-style-image: url(img/checkmark_29376.png);
 }
 .feature-left {
 	margin-right: -30%;
@@ -87,3 +90,4 @@ line-height: 16px;
 	width: 30%;
 	vertical-align: bottom;
 }
+
